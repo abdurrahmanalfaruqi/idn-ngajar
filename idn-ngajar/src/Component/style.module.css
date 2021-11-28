@@ -1,0 +1,96 @@
+.input{
+    background-color: rgb(240, 240, 240);
+    outline: none;
+    width:150px;
+    height:30px;
+    border: none;    
+    border-radius: 10px 0px 0px 10px;
+    padding: 5px;
+    margin-left: 50px;
+    font-family: "RobotoMono", monospace;    
+}
+
+.input2{
+    background-color: rgb(255, 243, 243);
+    outline: none;
+    width:150px;
+    height:30px;
+    border: none;
+    padding: 5px;
+    font-family: "RobotoMono", monospace;
+    text-align: center;
+}
+::-webkit-datetime-edit { padding: 0.2em; }
+::-webkit-datetime-edit-text { color: rgb(232, 4, 4); padding: 0 0.3em; }
+::-webkit-calendar-picker-indicator { background-color: white; }
+::-webkit-calendar-picker-indicator:hover { background-color: rgb(255, 207, 207) }
+::-webkit-inner-spin-button { display: none; }
+
+
+
+
+.input:hover{
+    background-color: white;
+}
+.input2:hover{
+    background-color: white;
+}
+.tombol{
+text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "RobotoMono", monospace;
+  background-color: rgb(200, 243, 204);
+  color: black;
+  padding: 12px 20px;
+  cursor: pointer;
+  border:none;
+  border-radius: 0px 10px 10px 0px;
+  vertical-align:middle
+}
+.tombol:hover {background-color: #a0f5a2}
+
+.tombol:active {
+  box-shadow: 0 2px rgb(211, 211, 211);
+  transform: translateY(1px);
+}
+  
+
+.remove{
+    text-align: center;
+    text-decoration: none;
+    background-color: tomato;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    cursor: pointer;   
+    font-family: "RobotoMono", monospace;
+    border-radius: 5px;
+    border: none;
+    vertical-align: middle;
+    margin-left: auto;
+}
+.remove:hover {
+    background-color: #ff0505
+}
+
+
+.remove:active {
+    box-shadow: 0 2px rgb(211, 211, 211);
+    transform: translateX(5px);
+  }
+
+.pstyle{
+    margin-right: auto;
+    padding: 10px;
+    font-family: "RobotoMono", monospace;
+
+}
+.pstyle2{
+    position: absolute;
+    margin-left: 250px;
+    font-family: "RobotoMono", monospace;
+
+ 
+    
+}
+
